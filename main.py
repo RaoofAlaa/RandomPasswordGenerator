@@ -18,7 +18,7 @@ ExistsUpperCase=0
 ExistsLowerCase=0
 ExistsDigit=0
 ExistsSpecial=0
-print("size original" , Password_Size)
+
 #Looping on the randomly generated password size
 i=0
 while i <Password_Size:
