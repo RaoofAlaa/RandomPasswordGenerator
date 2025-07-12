@@ -49,5 +49,5 @@ if ExistsUpperCase==0 or ExistsDigit==0 or ExistsSpecial==0 or ExistsLowerCase==
         password += secrets.choice(string.punctuation)
 
 #-------------------- Output --------------------
-print("Random password size is", Password_Size)
+print("Random password size is", len(password))
 print("Random password is", password)
