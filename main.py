@@ -18,7 +18,7 @@ ExistsUpperCase=0
 ExistsLowerCase=0
 ExistsDigit=0
 ExistsSpecial=0
-
+print("size original" , Password_Size)
 #Looping on the randomly generated password size
 i=0
 while i <Password_Size:
@@ -38,15 +38,14 @@ while i <Password_Size:
     i+=1
 
 #Adding missed conditions if needed
-if ExistsUpperCase==0 or ExistsDigit==0 or ExistsSpecial==0 or ExistsLowerCase==0:
-    if ExistsDigit == 0:
-        password += secrets.choice(string.digits)
-    elif ExistsUpperCase == 0:
-        password += secrets.choice(string.ascii_uppercase)
-    elif ExistsLowerCase == 0:
-        password += secrets.choice(string.ascii_lowercase)
-    elif ExistsSpecial == 0:
-        password += secrets.choice(string.punctuation)
+if ExistsDigit == 0:
+    password += secrets.choice(string.digits)
+if ExistsUpperCase == 0:
+    password += secrets.choice(string.ascii_uppercase)
+if ExistsLowerCase == 0:
+    password += secrets.choice(string.ascii_lowercase)
+if ExistsSpecial == 0:
+    password += secrets.choice(string.punctuation)
 
 #-------------------- Output --------------------
 print("Random password size is", len(password))
