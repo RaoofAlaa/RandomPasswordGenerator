@@ -3,8 +3,8 @@ import  secrets, string
 #Random Password that will be generated for users
 password=""
 
-#Generating random number between 8 and 16 for password strength
-min_value=8
+#Generating random number between 10 and 16 for password strength
+min_value=10
 max_value=16
 
 #Generating random size for the password
