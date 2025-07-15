@@ -1,7 +1,7 @@
 # RandomPasswordGenerator
 A simple python script that generates random password following the common criteria of the strong passwords,
 
--8 or more characters
+-10 or more characters
 -Contains uppercase & lowercase characters
 -Contains digits
 -Contains Special characters
