@@ -8,5 +8,5 @@ A simple python script that generates random password following the common crite
 
 Libraries used :
 
-1) Secrets to choose and generate random characters. 
-2) Strings to generate the password string and manipulate the characters.
+1) Secrets to choose the characters & the size of the password randomly. 
+2) Strings to generate the password characters and manipulate the string.
