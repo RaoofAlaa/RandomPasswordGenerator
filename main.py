@@ -10,7 +10,7 @@ max_value=16
 #Generating random size for the password
 Password_Size=min_value + secrets.randbelow(max_value - min_value + 1)
 
-#List of choices to be choosen randomly from
+#List of choices to be chosen randomly from
 choices = ['ascii_uppercase','ascii_lowercase','punctuation','digits']
 
 #Flags to check the existence of uppercase, lowercase & special characters and digits
